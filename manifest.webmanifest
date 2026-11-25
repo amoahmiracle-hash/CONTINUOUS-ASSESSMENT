@@ -1,0 +1,135 @@
+{
+  "id": "school-ca-tracker",
+  "name": "School CA & Report Card Tracker",
+  "short_name": "CA Tracker",
+  "description": "Offline continuous assessment tracker and A5 terminal report card printer for Ghana basic schools.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F2FBF5",
+  "theme_color": "#00C853",
+  "lang": "en-GH",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": [
+      "focus-existing",
+      "auto"
+    ]
+  },
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daily Entry",
+      "short_name": "Daily Entry",
+      "description": "Log today's scores",
+      "url": "./?tab=entry",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "CA Sheets",
+      "short_name": "CA Sheets",
+      "description": "Print blank CA sheets for teachers",
+      "url": "./?tab=sheets",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "CA Records",
+      "short_name": "CA Records",
+      "description": "Print continuous assessment records",
+      "url": "./?tab=records",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Report Cards",
+      "short_name": "Report Cards",
+      "description": "Enter exam scores and print report cards",
+      "url": "./?tab=reports",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/wide-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Print A5 terminal report cards for every learner"
+    },
+    {
+      "src": "screenshots/wide-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Blank CA sheets for each class and subject"
+    },
+    {
+      "src": "screenshots/narrow-1.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Log daily assessment scores"
+    },
+    {
+      "src": "screenshots/narrow-2.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Class record of continuous assessment"
+    }
+  ]
+}
